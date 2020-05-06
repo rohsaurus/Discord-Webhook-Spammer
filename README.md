@@ -1,2 +1,2 @@
-# discord-webhook-spammer
+# Discord Webhook Spammer
 Easily Spam Discord Webhooks
