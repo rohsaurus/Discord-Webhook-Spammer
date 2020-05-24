@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Linq;
@@ -17,19 +17,36 @@ namespace Discord_Webhook_Spammer
         static void Main(string[] args)
         {
 
-            Console.Title = "Discord Webhook Spammer by alecchernobyl";
+            Console.Title = "Discord Webhook Spammer [v1.1] by alecchernobyl";
             Console.ForegroundColor = ConsoleColor.Blue;
 
-            Console.WriteLine("Thank you for using my Discord Webhook Spammer!\nPlease Input the Webhook URL: ");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write(System.DateTime.Now.ToString("[hh:mm:ss]") + "> ");
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine("Thank you for using my Discord Webhook Spammer!");
+
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write(System.DateTime.Now.ToString("[hh:mm:ss]") + "> ");
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.Write("Please Input the Webhook URL: ");
             webhook = Console.ReadLine();
 
-            Console.WriteLine("Please Input the Username: ");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write(System.DateTime.Now.ToString("[hh:mm:ss]") + "> ");
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.Write("Please Input the Username: ");
             name = Console.ReadLine();
 
-            Console.WriteLine("Please Input the Avatar URL: ");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write(System.DateTime.Now.ToString("[hh:mm:ss]") + "> ");
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.Write("Please Input the Avatar URL: ");
             avatar = Console.ReadLine();
 
-            Console.WriteLine("Please Input the Message: ");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write(System.DateTime.Now.ToString("[hh:mm:ss]") + "> ");
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.Write("Please Input the Message: ");
             message = Console.ReadLine();
 
             Console.Clear();
@@ -63,11 +80,15 @@ namespace Discord_Webhook_Spammer
 
 
             });
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.Write(System.DateTime.Now.ToString("[hh:mm:ss]") + "> ");
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("[+] Successfully sended Webhook!");
             }
             catch
             {
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.Write(System.DateTime.Now.ToString("[hh:mm:ss]") + "> ");
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("[-] Couldn't send Webhook!");
             }
