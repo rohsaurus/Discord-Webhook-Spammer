@@ -17,13 +17,21 @@ namespace Discord_Webhook_Spammer
         static void Main(string[] args)
         {
 
-            Console.Title = "Discord Webhook Spammer [v1.1] by alecchernobyl";
+            // Variable that asks the user how many times do they want the code to loop
+            int Loops;
+            
+            
+            Console.Title = "Webhook Spammer [v1] by Rohan Parikh";
             Console.ForegroundColor = ConsoleColor.Blue;
 
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.Write(System.DateTime.Now.ToString("[hh:mm:ss]") + "> ");
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("Thank you for using my Discord Webhook Spammer!");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write(System.DateTime.Now.ToString("[hh:mm:ss]") + "> ");
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine("Credits to alecchernobyl for making the orignal code on github");
 
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.Write(System.DateTime.Now.ToString("[hh:mm:ss]") + "> ");
@@ -49,12 +57,35 @@ namespace Discord_Webhook_Spammer
             Console.Write("Please Input the Message: ");
             message = Console.ReadLine();
 
-            Console.Clear();
-
-            while (true)
+            Console.WriteLine("Do you have a set amount of times you want to send a message to the webhook or do you want  \n" +
+                             "it to repeat forever? Type forever if you want it forever otherwise it will automatically go \n" +
+                             " for a set amount of times" );
+            
+            String forever;
+            forever = Console.ReadLine();
+            if (forever.ToLower() == "forever")
             {
-                spammer();
+                Console.Clear();
+            
+                while (true)
+                {
+                    spammer();
+                }
             }
+            else
+            {
+                Console.WriteLine("How many times do you want to send the message to the webhook?");
+                Loops = Console.Read();
+                int counter = 0;
+                while (Loops != 0)
+                {
+                    counter++;
+                    spammer();
+                }
+            }
+
+
+
 
         }
         static async void spammer()

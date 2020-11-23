@@ -4,3 +4,9 @@ C:\Users\mpari\Documents\coding projects\C#\webhookspammer\Webhook Spammer\Webho
 C:\Users\mpari\Documents\coding projects\C#\webhookspammer\Webhook Spammer\Webhook Spammer\obj\Debug\Webhook Spammer.csproj.CoreCompileInputs.cache
 C:\Users\mpari\Documents\coding projects\C#\webhookspammer\Webhook Spammer\Webhook Spammer\obj\Debug\Webhook_Spammer.exe
 C:\Users\mpari\Documents\coding projects\C#\webhookspammer\Webhook Spammer\Webhook Spammer\obj\Debug\Webhook_Spammer.pdb
+C:\Users\mpari\Documents\coding projects\C#\webhookspammer\Discord-Webhook-Spammer\Webhook Spammer\Webhook Spammer\bin\Debug\Webhook_Spammer.exe
+C:\Users\mpari\Documents\coding projects\C#\webhookspammer\Discord-Webhook-Spammer\Webhook Spammer\Webhook Spammer\bin\Debug\Webhook_Spammer.pdb
+C:\Users\mpari\Documents\coding projects\C#\webhookspammer\Discord-Webhook-Spammer\Webhook Spammer\Webhook Spammer\obj\Debug\Webhook Spammer.csprojAssemblyReference.cache
+C:\Users\mpari\Documents\coding projects\C#\webhookspammer\Discord-Webhook-Spammer\Webhook Spammer\Webhook Spammer\obj\Debug\Webhook Spammer.csproj.CoreCompileInputs.cache
+C:\Users\mpari\Documents\coding projects\C#\webhookspammer\Discord-Webhook-Spammer\Webhook Spammer\Webhook Spammer\obj\Debug\Webhook_Spammer.exe
+C:\Users\mpari\Documents\coding projects\C#\webhookspammer\Discord-Webhook-Spammer\Webhook Spammer\Webhook Spammer\obj\Debug\Webhook_Spammer.pdb
