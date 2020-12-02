@@ -28,12 +28,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b09371a-30be-4f11-a2b8-a93c7d8a0aef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Webhook Spammer/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Webhook Spammer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Webhook Spammer/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Webhook Spammer/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Webhook Spammer/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Webhook Spammer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Webhook Spammer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Webhook Spammer/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Webhook Spammer/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Webhook Spammer/Load.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Webhook Spammer/Load.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +63,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -101,8 +96,17 @@
       <option name="presentableId" value="Default" />
       <updated>1606139190020</updated>
       <workItem from="1606139191802" duration="1947000" />
-      <workItem from="1606143342554" duration="1245000" />
+      <workItem from="1606143342554" duration="1995000" />
+      <workItem from="1606871021793" duration="66000" />
     </task>
+    <task id="LOCAL-00001" summary="Added the ability to set the amount of times you want to run the loop">
+      <created>1606148013037</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606148013038</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,14 +124,37 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Added the ability to set the amount of times you want to run the loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the ability to set the amount of times you want to run the loop" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1237" height="157" key="GridCell.Tab.0.bottom" timestamp="1606148041554">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="157" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606148041554" />
+    <state width="1237" height="157" key="GridCell.Tab.0.center" timestamp="1606148041554">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="157" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1606148041554" />
+    <state width="1237" height="157" key="GridCell.Tab.0.left" timestamp="1606148041553">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="157" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1606148041553" />
+    <state width="1237" height="157" key="GridCell.Tab.0.right" timestamp="1606148041554">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="157" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1606148041554" />
     <state x="-22" y="52" key="Rider.ProjectTemplateDialog.Size" timestamp="1606139182289">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-22" y="52" key="Rider.ProjectTemplateDialog.Size/0.0.1280.680@0.0.1280.680" timestamp="1606139182289" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1606871094009">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1606871094009" />
   </component>
 </project>

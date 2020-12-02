@@ -72,6 +72,7 @@ namespace Discord_Webhook_Spammer
                     spammer();
                 }
             }
+            // Function for if user wants to choose amount of times to spam a webhook
             else
             {
                 Console.WriteLine("How many times do you want to send the message to the webhook?");
