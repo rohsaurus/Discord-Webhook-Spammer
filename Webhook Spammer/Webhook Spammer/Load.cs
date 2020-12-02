@@ -7,13 +7,6 @@ using System.Threading.Tasks;
 
 
 
-// Current Errors: 
-/*
- * I have no clue why but the read input for the integer determing
- * the amount of times to loop is not reading the number the user entered
- * Right now it has choosen 49 and then after changing the code, it went to 50
- * 
- */
 namespace Discord_Webhook_Spammer
 {
     class Load
