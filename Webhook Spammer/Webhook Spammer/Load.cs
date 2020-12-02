@@ -83,8 +83,8 @@ namespace Discord_Webhook_Spammer
             else
             {
                 Console.WriteLine("How many times do you want to send the message to the webhook?");
-                int Loops;
-                Loops = Console.Read();
+                int Loops = Int32.Parse(Console.ReadLine());
+
                 
                 for (int i = 0; i != Loops; i++)
                 {
