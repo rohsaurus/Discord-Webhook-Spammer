@@ -24,11 +24,23 @@
         <item name="GROUP_NODE:upstream" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b09371a-30be-4f11-a2b8-a93c7d8a0aef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Webhook Spammer/bin/Debug/w" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Webhook Spammer/bin/Debug/wjha" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Webhook Spammer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Webhook Spammer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Webhook Spammer/Load.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Webhook Spammer/Load.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Webhook Spammer/bin/Debug/Webhook_Spammer.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Webhook Spammer/bin/Debug/Webhook_Spammer.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Webhook Spammer/bin/Debug/Webhook_Spammer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Webhook Spammer/bin/Debug/Webhook_Spammer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Webhook Spammer/obj/Debug/Webhook_Spammer.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Webhook Spammer/obj/Debug/Webhook_Spammer.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Webhook Spammer/obj/Debug/Webhook_Spammer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Webhook Spammer/obj/Debug/Webhook_Spammer.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +49,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/mpari/Documents/coding projects/C#/webhookspammer/Discord-Webhook-Spammer/Webhook Spammer/Webhook Spammer/Load.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -47,12 +62,15 @@
     </option>
   </component>
   <component name="ProjectId" id="1kh3pqKcleyjXnKr3q4f6kzjVzp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -97,7 +115,7 @@
       <updated>1606139190020</updated>
       <workItem from="1606139191802" duration="1947000" />
       <workItem from="1606143342554" duration="1995000" />
-      <workItem from="1606871021793" duration="66000" />
+      <workItem from="1606871021793" duration="1339000" />
     </task>
     <task id="LOCAL-00001" summary="Added the ability to set the amount of times you want to run the loop">
       <created>1606148013037</created>
@@ -106,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606148013038</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added a comment for the else loop that asks user how many times to run the program">
+      <created>1606871208062</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606871208062</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,27 +152,29 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Added the ability to set the amount of times you want to run the loop" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the ability to set the amount of times you want to run the loop" />
+    <MESSAGE value="Added a comment for the else loop that asks user how many times to run the program" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a comment for the else loop that asks user how many times to run the program" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="157" key="GridCell.Tab.0.bottom" timestamp="1606148041554">
+    <state width="1237" height="157" key="GridCell.Tab.0.bottom" timestamp="1606872334720">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="157" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606148041554" />
-    <state width="1237" height="157" key="GridCell.Tab.0.center" timestamp="1606148041554">
+    <state width="1237" height="157" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606872334720" />
+    <state width="1237" height="157" key="GridCell.Tab.0.center" timestamp="1606872334719">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="157" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1606148041554" />
-    <state width="1237" height="157" key="GridCell.Tab.0.left" timestamp="1606148041553">
+    <state width="1237" height="157" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1606872334719" />
+    <state width="1237" height="157" key="GridCell.Tab.0.left" timestamp="1606872334718">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="157" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1606148041553" />
-    <state width="1237" height="157" key="GridCell.Tab.0.right" timestamp="1606148041554">
+    <state width="1237" height="157" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1606872334718" />
+    <state width="1237" height="157" key="GridCell.Tab.0.right" timestamp="1606872334719">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="157" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1606148041554" />
+    <state width="1237" height="157" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1606872334719" />
     <state x="-22" y="52" key="Rider.ProjectTemplateDialog.Size" timestamp="1606139182289">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

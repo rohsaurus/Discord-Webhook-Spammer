@@ -5,6 +5,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+
+// Current Errors: 
+/*
+ * I have no clue why but the read input for the integer determing
+ * the amount of times to loop is not reading the number the user entered
+ * Right now it has choosen 49 and then after changing the code, it went to 50
+ * 
+ */
 namespace Discord_Webhook_Spammer
 {
     class Load
@@ -16,9 +25,7 @@ namespace Discord_Webhook_Spammer
 
         static void Main(string[] args)
         {
-
-            // Variable that asks the user how many times do they want the code to loop
-            int Loops;
+            
             
             
             Console.Title = "Webhook Spammer [v1] by Rohan Parikh";
@@ -76,11 +83,13 @@ namespace Discord_Webhook_Spammer
             else
             {
                 Console.WriteLine("How many times do you want to send the message to the webhook?");
+                int Loops;
                 Loops = Console.Read();
-                int counter = 0;
-                while (Loops != 0)
+                
+                for (int i = 0; i != Loops; i++)
                 {
-                    counter++;
+                    Console.WriteLine("i = " + i);
+                    Console.WriteLine("Loops = "  + Loops);
                     spammer();
                 }
             }
